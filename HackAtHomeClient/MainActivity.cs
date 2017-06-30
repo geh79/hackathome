@@ -13,6 +13,12 @@ namespace HackAtHomeClient
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
+
+            FindViewById<Button>(Resource.Id.buttonValidar).Click += (sender, e) =>
+            {            
+                var ActivityIntent = new Android.Content.Intent(this, typeof(Evidencias));
+                StartActivity(ActivityIntent);
+            };
         }
     }
 }
