@@ -40,6 +40,8 @@ namespace HackAtHomeClient
             if (resultado.Status == Status.Success)
             {
                 var ActivityIntent = new Android.Content.Intent(this, typeof(EvidencesActivity));
+                ActivityIntent.PutExtra("FullName", resultado.FullName);
+                ActivityIntent.PutExtra("Token", resultado.Token);
                 StartActivity(ActivityIntent);
             }
             else {
