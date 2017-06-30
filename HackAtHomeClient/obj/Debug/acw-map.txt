@@ -1,0 +1,4 @@
+HackAtHomeClient.MainActivity, HackAtHomeClient;md515836785b723b5cafe5f2a12bbc6a463.MainActivity
+HackAtHomeClient.MainActivity, HackAtHomeClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md515836785b723b5cafe5f2a12bbc6a463.MainActivity
+HackAtHomeClient.MainActivity;md515836785b723b5cafe5f2a12bbc6a463.MainActivity
+hackathomeclient.MainActivity;md515836785b723b5cafe5f2a12bbc6a463.MainActivity
