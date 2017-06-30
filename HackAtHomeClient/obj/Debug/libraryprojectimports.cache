@@ -2,15 +2,18 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\__library_projects__\HackAtHome.CustomAdapters\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\__library_projects__\HackAtHome.Entities\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\__library_projects__\HackAtHome.SAL\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\HackAtHome.CustomAdapters\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\HackAtHome.Entities\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\HackAtHome.SAL\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\__library_projects__\HackAtHome.CustomAdapters.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\__library_projects__\HackAtHome.Entities.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\__library_projects__\HackAtHome.SAL.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>

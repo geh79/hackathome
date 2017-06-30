@@ -99,6 +99,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "HackAtHomeClient.dll" comes first in this list. */
 		"HackAtHomeClient.dll",
+		"HackAtHome.CustomAdapters.dll",
 		"HackAtHome.Entities.dll",
 		"HackAtHome.SAL.dll",
 		"Newtonsoft.Json.dll",

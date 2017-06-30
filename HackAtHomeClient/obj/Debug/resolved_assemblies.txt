@@ -1,4 +1,5 @@
 C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\android\assets\HackAtHomeClient.dll
+C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\android\assets\HackAtHome.CustomAdapters.dll
 C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\android\assets\HackAtHome.Entities.dll
 C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\android\assets\HackAtHome.SAL.dll
 C:\Diplomado\hack\HackAtHomeClient\HackAtHomeClient\obj\Debug\android\assets\Java.Interop.dll
