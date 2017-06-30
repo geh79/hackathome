@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>30/06/2017 9:40:10 a.m.</xs:documentation>
+    <xs:documentation>30/06/2017 11:14:09 a.m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3624,6 +3624,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -3668,6 +3669,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -4280,6 +4282,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -4812,6 +4815,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -6017,6 +6021,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -6352,6 +6357,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11077,6 +11083,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11121,6 +11128,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11735,6 +11743,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11779,6 +11788,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11823,6 +11833,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -16885,6 +16896,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -17024,10 +17036,16 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkedTextView1" />
+            <xs:enumeration value="@id/button1" />
             <xs:enumeration value="@id/buttonValidar" />
             <xs:enumeration value="@id/editTextEmail" />
             <xs:enumeration value="@id/editTextPassword" />
+            <xs:enumeration value="@id/linearLayout1" />
+            <xs:enumeration value="@id/linearLayout2" />
+            <xs:enumeration value="@id/listView1" />
             <xs:enumeration value="@id/textView1" />
+            <xs:enumeration value="@id/textViewEvidence" />
+            <xs:enumeration value="@id/textViewUserFullName" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17362,6 +17380,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -18586,6 +18605,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21055,6 +21075,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21256,6 +21277,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21514,6 +21536,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -22212,6 +22235,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -24127,6 +24151,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -26095,6 +26120,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -27084,6 +27110,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -30498,6 +30525,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -31770,6 +31798,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -32957,6 +32986,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -34623,6 +34653,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -34667,6 +34698,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -38253,6 +38285,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -38297,6 +38330,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -40785,6 +40819,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -40933,6 +40968,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
@@ -42066,6 +42102,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Email" />
             <xs:enumeration value="@string/Evidence" />
+            <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/Password" />
             <xs:enumeration value="@string/Validate" />
             <xs:enumeration value="@android:string/cancel" />
